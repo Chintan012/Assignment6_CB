@@ -11,4 +11,4 @@ for (var i = 0; i < 8; i++) {
     result = result.concat("\n")
 }
 
-console.log(result);
+window.console.log(result);

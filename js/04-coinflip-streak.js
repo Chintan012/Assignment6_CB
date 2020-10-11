@@ -2,13 +2,13 @@
  * The “Coin Flip Streak” Game
  */
 
- var coinFlip;
+var coinFlip;
 
- do {
-     coinFlip = Math.round(Math.random());
-     if (coinFlip) {
+do {
+    coinFlip = Math.round(Math.random());
+    if (coinFlip) {
         window.console.log("Tails")
     } else {
         window.console.log("Heads");
     }
- } while(coinFlip != 1)
+} while (coinFlip != 1)
